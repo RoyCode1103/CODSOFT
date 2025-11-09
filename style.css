@@ -1,0 +1,132 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f9a825;
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #222;
+    margin-bottom: 10px;
+    border-left: 4px solid #f9a825;
+    padding-left: 10px;
+}
+
+/* About section */
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+/* Skills */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Projects */
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Resume button */
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9a825;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: #fbc02d;
+}
+
+/* Contact */
+#contact a {
+    color: #2193b0;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
