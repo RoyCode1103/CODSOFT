@@ -3,12 +3,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, rgb(0, 255, 136), rgb(215, 230, 11));
+  background: linear-gradient(135deg, rgb(145, 205, 177), rgb(193, 158, 158));
   font-family: 'Poppins', sans-serif;
 }
 
 .calculator {
-  background: linear-gradient(90deg, rgb(255, 128, 0), white, rgb(7, 118, 7));
+  background: linear-gradient(90deg, rgb(255, 128, 0), white, green);
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.9);
