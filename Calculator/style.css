@@ -37,7 +37,7 @@ body {
 
 .btn {
   background: black;
-  color: grey;
+  color: whitesmoke;
   font-weight: 600;
   border: none;
   border-radius: 10px;
@@ -60,7 +60,7 @@ body {
 }
 
 .ac{
-  background-color: goldenrod;
+  background-color: lightseagreen;
 }
 .equal:hover {
   background: #ffc107;
