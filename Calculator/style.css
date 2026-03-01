@@ -44,7 +44,7 @@ body {
   padding: 20px;
   font-size: 1.3rem;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background 0.3s;
 }
 
 .btn:hover {
